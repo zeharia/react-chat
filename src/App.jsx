@@ -3,7 +3,7 @@ import io from "socket.io-client";
 
 // Pour le développement local, utilisez : "http://localhost:3001"
 // Pour la production, gardez votre URL Railway
-const socket = io("http://localhost:3001");
+const socket = io("https://chat-server-production-108d.up.railway.app/");
 
 function App() {
   const [username, setUsername] = useState("");
